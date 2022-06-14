@@ -1,0 +1,6 @@
+<div>
+    <p>{{joke.question}}</p>
+    <p *ngIf="showAnswer">{{joke.answer}}</p>
+    <button (click)="toggleAnswer()">Tell me</button>
+    <button (click)="deleteSelf()">Delete</button>
+</div>
