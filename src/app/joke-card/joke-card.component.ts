@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { Joke } from 'src/models/joke';
+import { Joke } from 'src/models/joke.model';
 
 @Component({
   selector: 'app-joke-card',
