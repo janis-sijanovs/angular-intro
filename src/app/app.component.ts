@@ -7,7 +7,7 @@ import { Joke } from 'src/models/joke';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'codelex-md-25';
+  title = 'joke-app';
 
   jokes = [] as Joke[]
 
