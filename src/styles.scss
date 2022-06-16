@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    background-color: rgb(196, 196, 196);
+}
+
+.button {
+    background-color:rgb(69, 132, 184);
+    border: 1px solid black;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 26px;
+    border-radius: 10px;
+    width: fit-content;  
+    color: rgb(192, 190, 190);
+    cursor: pointer;
+
+    &:hover {
+        background-color:rgb(47, 102, 146);
+    }
+
+    &:active {
+        background-color:rgb(26, 70, 105);
+    }
+}

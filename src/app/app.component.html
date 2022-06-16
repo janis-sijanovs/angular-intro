@@ -1,4 +1,5 @@
-<div>
+<div class="app">
+  <h1 class="title">JOKE LIST</h1>
   <app-joke-form (submitJoke)=onRecieveData($event)></app-joke-form>
 
   <div *ngFor="let joke of jokes; index as i">

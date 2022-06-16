@@ -1,6 +1,8 @@
-<div>
+<div class="card">
     <p>{{joke.question}}</p>
     <p *ngIf="showAnswer">{{joke.answer}}</p>
-    <button (click)="toggleAnswer()">Tell me</button>
-    <button (click)="deleteSelf()">Delete</button>
+    <div class="button-box">
+        <button class="button" (click)="toggleAnswer()">Tell me</button>
+        <button class="button" (click)="deleteSelf()">Delete</button>
+    </div>
 </div>

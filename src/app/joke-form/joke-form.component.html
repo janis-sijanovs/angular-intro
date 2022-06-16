@@ -1,8 +1,11 @@
-<div>
-    <div>
-        <input type="text" placeholder="Write a question" [(ngModel)]="question">
-        <input type="text" placeholder="Write an answer" [(ngModel)]="answer">
-        <button (click)="onSumbit()">Add Joke</button>
-    </div>
-  
-  </div>
+<div class="joke-form">
+    <label class="label">
+        Question:&nbsp;
+        <input class="input" type="text" placeholder="Write a question" [(ngModel)]="question">
+    </label>
+    <label class="label">
+        Answer:&nbsp;
+        <input class="input" type="text" placeholder="Write an answer" [(ngModel)]="answer">
+    </label>
+    <button class="button" (click)="onSumbit()">Add Joke</button>
+</div>
